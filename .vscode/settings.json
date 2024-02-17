@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "Abyss",
+  "window.zoomLevel": 2,
+  "editor.fontFamily": "Monaspace Krypton, HackGen",
+  "editor.renderWhitespace": "all",
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontFamily": "Monaspace Krypton, HackGen Console NF",
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "[python]": {
+    "editor.rulers": [
+      {"column": 72, "color": "#c71585"},
+      {"column": 79, "color": "#ff4500"}
+    ],
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "autoDocstring.docstringFormat": "google"
+}
