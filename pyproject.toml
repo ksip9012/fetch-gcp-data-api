@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "fetch-gcp-data-api"
+version = "0.1.0"
+description = ""
+authors = ["ksip9012 <ksiper9012@gmail.com>"]
+readme = "README.md"
+packages = [
+  { include = "fetch_gcp_data_api" }
+]
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+python-dotenv = "1.0.1"
+google-auth = "2.27.0"
+google-api-python-client = "2.116.0"
+google-analytics-data = "0.18.4"
+pandas = "2.2.0"
+ruff = "0.2.1"
+pandas-stubs = "2.1.4.231227"
+google-auth-stubs = "0.2.0"
+google-api-python-client-stubs = "1.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 79
+src = ["fetch_gcp_data_api"]
+exclude = [".venv"]
+pydocstyle.convention = "google"
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["ALL"]
+typing-modules = ["x"]
+ignore = []
+
